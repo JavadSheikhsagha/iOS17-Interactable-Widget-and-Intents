@@ -11,7 +11,40 @@
 		3F7425BE2AB42D4A00A34ADA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7425BD2AB42D4A00A34ADA /* ContentView.swift */; };
 		3F7425C02AB42D4D00A34ADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7425BF2AB42D4D00A34ADA /* Assets.xcassets */; };
 		3F7425C42AB42D4D00A34ADA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7425C32AB42D4D00A34ADA /* Preview Assets.xcassets */; };
+		3F7425D12AB42EC100A34ADA /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7425D02AB42EC100A34ADA /* WidgetKit.framework */; };
+		3F7425D32AB42EC100A34ADA /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7425D22AB42EC100A34ADA /* SwiftUI.framework */; };
+		3F7425D62AB42EC100A34ADA /* WidgyBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7425D52AB42EC100A34ADA /* WidgyBundle.swift */; };
+		3F7425D82AB42EC100A34ADA /* Widgy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7425D72AB42EC100A34ADA /* Widgy.swift */; };
+		3F7425DA2AB42EC400A34ADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7425D92AB42EC400A34ADA /* Assets.xcassets */; };
+		3F7425DE2AB42EC400A34ADA /* WidgyExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3F7425CE2AB42EC100A34ADA /* WidgyExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3F7425E52AB431FD00A34ADA /* ListOfImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7425E42AB431FD00A34ADA /* ListOfImages.swift */; };
+		3F7425E62AB431FD00A34ADA /* ListOfImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7425E42AB431FD00A34ADA /* ListOfImages.swift */; };
+		3F7425E92AB433A800A34ADA /* NetworkImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7425E72AB433A800A34ADA /* NetworkImage.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F7425DC2AB42EC400A34ADA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F7425B02AB42D4A00A34ADA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F7425CD2AB42EC100A34ADA;
+			remoteInfo = WidgyExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3F7425E22AB42EC400A34ADA /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3F7425DE2AB42EC400A34ADA /* WidgyExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3F7425B82AB42D4A00A34ADA /* iOS 17 Interactable Widgets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS 17 Interactable Widgets.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -20,6 +53,16 @@
 		3F7425BF2AB42D4D00A34ADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F7425C12AB42D4D00A34ADA /* iOS_17_Interactable_Widgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iOS_17_Interactable_Widgets.entitlements; sourceTree = "<group>"; };
 		3F7425C32AB42D4D00A34ADA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F7425CE2AB42EC100A34ADA /* WidgyExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WidgyExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F7425D02AB42EC100A34ADA /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		3F7425D22AB42EC100A34ADA /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		3F7425D52AB42EC100A34ADA /* WidgyBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgyBundle.swift; sourceTree = "<group>"; };
+		3F7425D72AB42EC100A34ADA /* Widgy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Widgy.swift; sourceTree = "<group>"; };
+		3F7425D92AB42EC400A34ADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F7425DB2AB42EC400A34ADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F7425E32AB4318D00A34ADA /* WidgyExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WidgyExtension.entitlements; sourceTree = "<group>"; };
+		3F7425E42AB431FD00A34ADA /* ListOfImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfImages.swift; sourceTree = "<group>"; };
+		3F7425E72AB433A800A34ADA /* NetworkImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,13 +73,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3F7425CB2AB42EC100A34ADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7425D32AB42EC100A34ADA /* SwiftUI.framework in Frameworks */,
+				3F7425D12AB42EC100A34ADA /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		3F7425AF2AB42D4A00A34ADA = {
 			isa = PBXGroup;
 			children = (
+				3F7425E32AB4318D00A34ADA /* WidgyExtension.entitlements */,
 				3F7425BA2AB42D4A00A34ADA /* iOS 17 Interactable Widgets */,
+				3F7425D42AB42EC100A34ADA /* Widgy */,
+				3F7425CF2AB42EC100A34ADA /* Frameworks */,
 				3F7425B92AB42D4A00A34ADA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				3F7425B82AB42D4A00A34ADA /* iOS 17 Interactable Widgets.app */,
+				3F7425CE2AB42EC100A34ADA /* WidgyExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,6 +110,7 @@
 			children = (
 				3F7425BB2AB42D4A00A34ADA /* iOS_17_Interactable_WidgetsApp.swift */,
 				3F7425BD2AB42D4A00A34ADA /* ContentView.swift */,
+				3F7425E42AB431FD00A34ADA /* ListOfImages.swift */,
 				3F7425BF2AB42D4D00A34ADA /* Assets.xcassets */,
 				3F7425C12AB42D4D00A34ADA /* iOS_17_Interactable_Widgets.entitlements */,
 				3F7425C22AB42D4D00A34ADA /* Preview Content */,
@@ -69,6 +126,27 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		3F7425CF2AB42EC100A34ADA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F7425D02AB42EC100A34ADA /* WidgetKit.framework */,
+				3F7425D22AB42EC100A34ADA /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F7425D42AB42EC100A34ADA /* Widgy */ = {
+			isa = PBXGroup;
+			children = (
+				3F7425E72AB433A800A34ADA /* NetworkImage.swift */,
+				3F7425D52AB42EC100A34ADA /* WidgyBundle.swift */,
+				3F7425D72AB42EC100A34ADA /* Widgy.swift */,
+				3F7425D92AB42EC400A34ADA /* Assets.xcassets */,
+				3F7425DB2AB42EC400A34ADA /* Info.plist */,
+			);
+			path = Widgy;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -79,15 +157,34 @@
 				3F7425B42AB42D4A00A34ADA /* Sources */,
 				3F7425B52AB42D4A00A34ADA /* Frameworks */,
 				3F7425B62AB42D4A00A34ADA /* Resources */,
+				3F7425E22AB42EC400A34ADA /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3F7425DD2AB42EC400A34ADA /* PBXTargetDependency */,
 			);
 			name = "iOS 17 Interactable Widgets";
 			productName = "iOS 17 Interactable Widgets";
 			productReference = 3F7425B82AB42D4A00A34ADA /* iOS 17 Interactable Widgets.app */;
 			productType = "com.apple.product-type.application";
+		};
+		3F7425CD2AB42EC100A34ADA /* WidgyExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F7425DF2AB42EC400A34ADA /* Build configuration list for PBXNativeTarget "WidgyExtension" */;
+			buildPhases = (
+				3F7425CA2AB42EC100A34ADA /* Sources */,
+				3F7425CB2AB42EC100A34ADA /* Frameworks */,
+				3F7425CC2AB42EC100A34ADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WidgyExtension;
+			productName = WidgyExtension;
+			productReference = 3F7425CE2AB42EC100A34ADA /* WidgyExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,6 +197,9 @@
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					3F7425B72AB42D4A00A34ADA = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					3F7425CD2AB42EC100A34ADA = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
@@ -118,6 +218,7 @@
 			projectRoot = "";
 			targets = (
 				3F7425B72AB42D4A00A34ADA /* iOS 17 Interactable Widgets */,
+				3F7425CD2AB42EC100A34ADA /* WidgyExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -132,6 +233,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3F7425CC2AB42EC100A34ADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7425DA2AB42EC400A34ADA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -141,10 +250,30 @@
 			files = (
 				3F7425BE2AB42D4A00A34ADA /* ContentView.swift in Sources */,
 				3F7425BC2AB42D4A00A34ADA /* iOS_17_Interactable_WidgetsApp.swift in Sources */,
+				3F7425E52AB431FD00A34ADA /* ListOfImages.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7425CA2AB42EC100A34ADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7425D82AB42EC100A34ADA /* Widgy.swift in Sources */,
+				3F7425E92AB433A800A34ADA /* NetworkImage.swift in Sources */,
+				3F7425D62AB42EC100A34ADA /* WidgyBundle.swift in Sources */,
+				3F7425E62AB431FD00A34ADA /* ListOfImages.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F7425DD2AB42EC400A34ADA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F7425CD2AB42EC100A34ADA /* WidgyExtension */;
+			targetProxy = 3F7425DC2AB42EC400A34ADA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		3F7425C52AB42D4D00A34ADA /* Debug */ = {
@@ -264,6 +393,7 @@
 		3F7425C82AB42D4D00A34ADA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "iOS 17 Interactable Widgets/iOS_17_Interactable_Widgets.entitlements";
@@ -292,16 +422,18 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.iOS-17-Interactable-Widgets";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		3F7425C92AB42D4D00A34ADA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "iOS 17 Interactable Widgets/iOS_17_Interactable_Widgets.entitlements";
@@ -330,10 +462,72 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.iOS-17-Interactable-Widgets";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3F7425E02AB42EC400A34ADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = WidgyExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M2RP89S8N2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Widgy/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Widgy;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.iOS-17-Interactable-Widgets.Widgy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F7425E12AB42EC400A34ADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = WidgyExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M2RP89S8N2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Widgy/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Widgy;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.iOS-17-Interactable-Widgets.Widgy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -354,6 +548,15 @@
 			buildConfigurations = (
 				3F7425C82AB42D4D00A34ADA /* Debug */,
 				3F7425C92AB42D4D00A34ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F7425DF2AB42EC400A34ADA /* Build configuration list for PBXNativeTarget "WidgyExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7425E02AB42EC400A34ADA /* Debug */,
+				3F7425E12AB42EC400A34ADA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
